@@ -528,6 +528,15 @@ color for the moving words
   header {
     display: none;
     }
+  #home img{
+  display:flex;
+  margin:1rem 0;
+  height:10rem;
+  width:10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:0 0 17px white;
+}
     .theme-toggler{
       display: none;
       }
@@ -542,6 +551,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: none;
   }
  #home img{
+  display:flex;
   margin:1rem 0;
   height:10rem;
   width:10rem;
@@ -553,10 +563,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     overflow-y: scroll;
     overflow-x: scroll;
   }
-  .static_txt{
-    display: flex;
-    width: fit-content;
-  }
+  
 }
 
 
