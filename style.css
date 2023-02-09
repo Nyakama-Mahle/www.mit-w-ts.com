@@ -164,7 +164,7 @@ header .navbar ul li a:hover{
   justify-content: center;
   flex-flow: column;
   position: relative;
-  padding-bottom: 1px;
+  padding-bottom: 2rem;
 }
 
 .home h3{
@@ -203,7 +203,7 @@ color for the moving words
   color:white;
   text-shadow: 0 0 10px #78ffd6;
 }
-
+.home .share{
   position: absolute;
   left:50%; 
   bottom:3.5rem;
@@ -214,7 +214,17 @@ color for the moving words
   background: rgb(71, 16, 82);
   transition: .2s linear;
   box-shadow:0 0 20px white;
-
+  position: absolute;
+  left:50%; 
+  bottom:3.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  padding:0.5rem;
+  border-radius: 1rem;
+  background: rgb(71, 16, 82);
+  transition: .2s linear;
+  box-shadow:0 0 20px white;
+}
 .home .share a{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
   padding:1rem 2rem;
