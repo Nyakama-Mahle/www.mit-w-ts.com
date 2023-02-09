@@ -506,13 +506,14 @@ color for the moving words
 }
 
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track{
-  background:rgb(163, 4, 4);
+  background:rgb(164, 3, 185);
 }
 ::-webkit-scrollbar-thumb{
-  background:rgb(74, 185, 23);
+  background:white;
+  text-shadow: 0 0 17px rgb(0, 225, 255);
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -564,10 +565,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   object-fit: cover;
   box-shadow:0 0 17px white;
 }
- body{
-    display: flexbox;
-    padding: 1rem;
-  }
+ 
   .container{
     overflow-y: scroll;
     overflow-x: scroll;
