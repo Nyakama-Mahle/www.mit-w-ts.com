@@ -536,8 +536,8 @@ color for the moving words
   #home img{
   display:flex;
   margin:1rem 0;
-  height:14rem;
-  width:14rem;
+  height:15rem;
+  width:15rem;
   border-radius: 50%;
   object-fit: cover;
   box-shadow:0 0 17px white;
@@ -559,8 +559,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
  #home img{
   display:flex;
   margin:1rem 0;
-  height:14rem;
-  width:14rem;
+  height:15rem;
+  width:15rem;
   border-radius: 50%;
   object-fit: cover;
   box-shadow:0 0 17px white;
