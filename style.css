@@ -51,7 +51,24 @@ section{
   cursor: pointer;
   transition:.2s linear;
 }
+.btn{
+  font-size: 2rem;
+  padding:.7rem 4rem;
+  background:#0f1b33;
+  color:white;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  margin-top: 1rem;
+  cursor: pointer;
+  transition:.2s linear;
+  text-shadow: 0 0 10px #0f78a5;
+}
 
+.btn:hover{
+  background:#660339;
+  color:white;
+  text-shadow:rgba(123,104,238,);
+}
 
 .heading{
   font-size: 3rem;
