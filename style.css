@@ -541,7 +541,7 @@ color for the moving words
         display: flex;
         padding:0.5rem;
         border-radius: 1rem;
-        background: rgb(71, 16, 82);
+        background: transparent;
         transition: .2s linear;
         box-shadow:0 0 20px white;
       }
@@ -564,7 +564,7 @@ color for the moving words
         color:#0f1b33;
         display: flex;
         box-shadow: 0 0 17px black;
-        text-shadow: 0 0 10px white;
+        text-shadow: 0 0 22px white;
       }
       
       .contact .row .content .icons h3 i{
@@ -601,6 +601,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .contact .row .content .icons{
     padding:0.5rem 0;
+    box-shadow:0 0 22px white;
   }
   
   .contact .row .content .icons h3{
@@ -608,7 +609,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 1rem;
     color:#0f1b33;
     display: flex;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 22px white;
   }
   
   .contact .row .content .icons h3 i{
