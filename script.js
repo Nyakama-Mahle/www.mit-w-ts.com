@@ -1,6 +1,6 @@
 
     var type = new Typed('.typing-text',{
-        strings : [ 'Proficiency in software Engineering practices such as ',' DevOps ', 'Agile  & Waterfall developmnent ', 'Testing' ,'infrastructure as code', 'CI and CD'],
+        strings : [ 'Proficiency in software Engineering practices such as ',' DevOps ', 'Agile  & Waterfall developmnent ', 'Testing' ,'infrastructure as code', 'Continuous Integration and Contnuous Delivery'],
         typeSpeed: 50,
         loop:true
     
