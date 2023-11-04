@@ -1,6 +1,6 @@
 
     var type = new Typed('.typing-text',{
-        strings : [ '','WEB DEVELOPMENT', ' DATABASE MANAGEMENT', 'CRYPTOGRAPHY', 'COMPUTER REPAIR','UX/UI DESIGN','TUTORING MATHEMATICS','TUTORING JAVA AND C++'],
+        strings : [ 'Proficiency in software Engineering practices such as ',' DevOps ', 'Agile Development ', 'Testing' ,'infrastructure as code', 'CI and CD'],
         typeSpeed: 50,
         loop:true
     
